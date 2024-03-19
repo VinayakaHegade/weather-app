@@ -6,6 +6,29 @@
   gap: 6px;
 }
 
+.separator {
+  height: 1px;
+  width: 100%;
+  margin: 15px 0;
+  background: var(--primary-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.separator::before {
+  content: "or";
+  color: var(--primary-gray);
+  font-size: 16px;
+  padding: 0 15px;
+  margin-top: -4px;
+  background: white;
+}
+
+.home > form {
+  width: 100%;
+}
+
 .home input {
   width: 100%;
   border: 1px solid var(--primary-gray);
@@ -19,10 +42,6 @@
   font-weight: 200;
 }
 
-.home > p {
-  color: gray;
-}
-
 .home > button {
   width: 100%;
   background-color: var(--primary-blue);
@@ -31,4 +50,10 @@
   border-radius: 3px;
   padding: 6px;
   cursor: pointer;
+}
+
+.error {
+  color: var(--error);
+  font-size: 15px;
+  line-height: 1.3;
 }

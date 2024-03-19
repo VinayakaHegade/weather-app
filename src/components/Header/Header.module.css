@@ -1,9 +1,15 @@
 .header {
   padding: 12px 16px;
   border-bottom: 1px solid var(--primary-gray);
+  display: flex;
+  gap: 6px;
 }
 
 .header > h1 {
   font-size: 16px;
   color: var(--secondary-blue);
+}
+
+.header > svg {
+  cursor: pointer;
 }

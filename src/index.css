@@ -1,8 +1,8 @@
 :root {
-  --primary-blue: rgb(67 174 252);
+  --primary-blue: rgb(67, 174, 252);
   --secondary-blue: rgb(48, 141, 191);
   --primary-gray: rgb(192, 192, 192);
-
+  --error: rgb(255, 55, 55);
   --br: 6px;
 }
 

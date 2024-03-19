@@ -1,0 +1,62 @@
+.main {
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  border-bottom: 1px solid var(--primary-gray);
+}
+
+.temp {
+  font-size: 32px;
+}
+
+.description {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.location {
+  display: flex;
+  gap: 3px;
+}
+
+.locationIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.location > p {
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+}
+
+.separator {
+  border-right: 1px solid var(--primary-gray);
+}
+
+.icon {
+  height: 36px;
+  width: auto;
+}
+
+.container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  padding: 16px;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.error {
+  color: var(--error);
+}
