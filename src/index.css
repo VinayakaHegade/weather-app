@@ -1,3 +1,11 @@
+:root {
+  --primary-blue: rgb(67 174 252);
+  --secondary-blue: rgb(48, 141, 191);
+  --primary-gray: rgb(192, 192, 192);
+
+  --br: 6px;
+}
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -20,6 +28,8 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-color: var(--primary-blue);
+  font-family: Inter, sans-serif;
 }
 /*
   5. Improve media defaults
