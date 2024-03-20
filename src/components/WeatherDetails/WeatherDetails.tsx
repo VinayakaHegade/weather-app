@@ -72,7 +72,7 @@ const WeatherDetails = () => {
           <div className={styles.location}>
             <img
               className={styles.locationIcon}
-              src="src/assets/location.svg"
+              src="/assets/location.svg"
               alt="location icon"
             />
             <p>
@@ -84,7 +84,7 @@ const WeatherDetails = () => {
           <div className={styles.container}>
             <img
               className={styles.icon}
-              src="src/assets/temperature.svg"
+              src="/assets/temperature.svg"
               alt="temperatue icon"
             />
             <div>
@@ -96,7 +96,7 @@ const WeatherDetails = () => {
           <div className={styles.container}>
             <img
               className={styles.icon}
-              src="src/assets/humidity.svg"
+              src="/assets/humidity.svg"
               alt="humidity icon"
             />
             <div>
