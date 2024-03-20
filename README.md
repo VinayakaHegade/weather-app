@@ -1,5 +1,16 @@
-## Demo
+# Weather App
 [![Weather-app](https://img.shields.io/badge/Tryit-(here)-blue.svg)](https://v-weather.vercel.app)
+
+This is an intuitive, user-friendly Weather App built with React. It integrates with the OpenWeather API to provide current weather details for any location.
+
+Key features of the application include:
+
+- **Location Input**: Users can input a location to get the current temperature, humidity, and other weather conditions.
+- **Device Location**: The application can retrieve and display the weather details for the user's current device location.
+- **Bookmarkable and Shareable**: The application adds the latitude and longitude to the query parameters of the URL, making the weather details page bookmarkable and shareable.
+- **Weather Icons**: The application displays an appropriate weather icon based on the weather condition.
+
+## Demo
 
 Hom Page
 
@@ -8,10 +19,6 @@ Hom Page
 Details Page
 
 ![details](https://github.com/VinayakaHegade/weather-app/assets/88454618/4273f675-90ea-40a3-916e-22c8f44aba78)
-
-# Weather App
-
-This is a simple user-friendly Weather App built with React. It integrates with the OpenWeahter API to provide current weather details.
 
 ## Prerequisites
 
