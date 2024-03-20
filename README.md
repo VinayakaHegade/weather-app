@@ -12,6 +12,8 @@ Key features of the application include:
 
 ## Demo
 
+https://github.com/VinayakaHegade/weather-app/assets/88454618/bb254123-86fa-475c-a8ce-88cee5d2a52c
+
 Hom Page
 
 ![home](https://github.com/VinayakaHegade/weather-app/assets/88454618/bcf359cf-0767-41c0-9a50-e41b24044369)
